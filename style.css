@@ -102,8 +102,64 @@ body {
     width: 400px;
     object-fit: contain;
     display: block;
+   
 }
 
 @media only screen and (max-width: 900px) {
     
+}
+.btn-show-all{
+    
+    background-color: #fcb69f;
+    color: white;
+    margin-top: 50px;
+   
+}
+
+.btn-show-all a{
+    font-size: 4em;   
+}
+
+.contact-section{
+background-color: rgb(3, 3, 34);
+height: 500px;
+display: flex;
+justify-content:center;
+align-items: center;
+color:white;
+flex-direction: column;
+gap: 50px;
+text-align: center;
+font-size: 30px;
+
+
+}
+.contact_links{
+    display: flex;
+    gap: 50px;
+
+}
+
+.contact-section-header h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    padding-bottom: 2rem;  
+}
+footer{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    background-color: rgb(3, 3, 34);
+    color:white;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-top: #ad1e31 3px solid;
+    padding-top:30px;
+    padding-bottom: 30px;
+
+      
+
 }
